@@ -19,13 +19,12 @@ function moveZeroes(arr) {
 
 
 function zeroes(nums) {
-    let i = 0;  // Pointer to track the position of the next non-zero element
+    let i = 0;  
 
     for (let j = 0; j < nums.length; j++) {
         if (nums[j] !== 0) {
-            [nums[i], nums[j]] = [nums[j], nums[i]];  // Swap using array destructuring
+            [nums[i], nums[j]] = [nums[j], nums[i]];  
             console.log(i, j);
-
             i++;
         }
         console.log(arr);
