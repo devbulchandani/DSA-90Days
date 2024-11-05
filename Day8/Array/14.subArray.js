@@ -51,7 +51,6 @@ function subArray(arr, k) {
     return len
 }
 
-
 function longestPositive(arr, k) {
     let i = 0;
     let j = 0;

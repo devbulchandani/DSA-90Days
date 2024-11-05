@@ -31,13 +31,9 @@ function twosum(arr, target){
     while (i < j){
         if (arr[i] + arr[j] < target){
             i++;
-            console.log("i:", i);
-            console.log("j:", j);
         }
         if (arr[i] + arr[j] > target){
             j++;
-            console.log("i:", i);
-            console.log("j:", j);
         }
         if (arr[i] + arr[j] === target) {
             console.log(arr[i], arr[j]);
