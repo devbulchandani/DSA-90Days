@@ -40,7 +40,6 @@ function twosum(arr, target){
             return [i, j]
         }
     }
-    
 }
 
 console.log(twosum([3,2,4], 6));
