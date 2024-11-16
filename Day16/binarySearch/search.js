@@ -5,9 +5,6 @@ function search(nums, target) {
     while (low <= high) {
         let mid = Math.floor((low + high) / 2);
         if (nums[mid] === target) {
-            while (nums[mid - 1] === nums[mid]) {
-                mid--
-            }
             return mid;
         }
         if (nums[mid] < target) {
