@@ -38,7 +38,6 @@ function searh2D(matrix, target) {
     } else {
         return false
     }
-
 }
 
 let matrix =[[1]], target = 0
