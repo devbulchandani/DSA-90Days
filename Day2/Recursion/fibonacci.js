@@ -3,7 +3,7 @@ function fibonacci(n) {
     for (let i = 2; i < n + 1; i++) {
         fibo[i] = fibo[i - 1] + fibo[i - 2]
     }
-    return fibo;
+    return fibo[n];
 }
 
 function fib(n) {
@@ -14,5 +14,4 @@ function fib(n) {
 }
 
 
-console.log(fibonacci(10))
-console.log(fib(10));
+console.log(fibonacci(6))
