@@ -7,4 +7,4 @@ function isPrime(n) {
     return true;
 }
 
-console.log(isPrime(8));
+console.log(isPrime(6));

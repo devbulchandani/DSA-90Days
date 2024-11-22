@@ -11,5 +11,5 @@ function countDigits2(n) {
     return Math.floor(Math.log10(n)) + 1;
 } // O(1)
 
-let digits = countDigits2(100);
+let digits = countDigits2(121);
 console.log("Number of digits:", digits);
