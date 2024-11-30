@@ -52,7 +52,6 @@ function reverseOptimal(head) {
         temp.next = prev;
         prev = temp;
         temp = next;
-        console.log(print(prev));
     }
     head = prev;
     return head;
